@@ -1,0 +1,32 @@
+{
+  "local": {
+    "PORT": 1200,
+    "IP": "192.168.1.23",
+    "MONGODB_URI": "mongodb://localhost:27017/petfish-catalogue",
+    "JWT_SECRET": "3ZGErMDCyxTOZYFr56HGD",
+    "BASE_UPLOAD_DIR": "uploads/",
+    "NODE_ENV": "local",
+    "EMAIL": "ding32394@gmail.com",
+    "CONTCT_EMAIL": "ghulammohiodin321@gmail.com"
+  },
+  "dev": {
+    "PORT": 1200,
+    "IP": "192.168.1.28",
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/petfish-catalogue",
+    "JWT_SECRET": "3ZGErMDCyxTOZYFr56HGD",
+    "BASE_UPLOAD_DIR": "uploads/",
+    "NODE_ENV": "dev",
+    "EMAIL": "ding32394@gmail.com",
+    "CONTCT_EMAIL": "ghulammohiodin321@gmail.com"
+  },
+  "prod": {
+    "PORT": 1200,
+    "IP": "192.168.1.28",
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/petfish-catalogue",
+    "JWT_SECRET": "3ZGErMDCyxTOZYFr56HGD",
+    "BASE_UPLOAD_DIR": "uploads/",
+    "NODE_ENV": "prod",
+    "EMAIL": "ding32394@gmail.com",
+    "CONTCT_EMAIL": "ghulammohiodin321@gmail.com"
+  }
+}
